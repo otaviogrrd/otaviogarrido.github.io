@@ -12,41 +12,13 @@
 :root #content > #center > .dose > .dosesingle,
 :root #content > #right > .dose > .dosesingle
 { display: none !important; }</style>
- <style>
-.tooltip2 { position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip2 .tooltiptext2 {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: 150%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.tooltip2 .tooltiptext2::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
-}
-
-.tooltip2:hover .tooltiptext2 {
-    visibility: visible;
-}
+<style>
+.tooltip2 {position: relative;display: inline-block;border-bottom: 1px dotted black;}
+.tooltip2 .tooltiptext2 {visibility: hidden;font-size: 9px;width: 120px;background-color: black;color: #fff;text-align: center;
+border-radius: 6px;padding: 5px 1px;position: absolute;z-index: 1;top: 150%;left: 50%;margin-left: -60px;}
+.tooltip2 .tooltiptext2::after {content: "";position: absolute;bottom: 100%;left: 50%;margin-left: -5px;border-width: 5px;
+border-style: solid;border-color: transparent transparent black transparent;}
+.tooltip2:hover .tooltiptext2 {visibility: visible;}
 </style>
  </head>
 <body class="">
