@@ -11,7 +11,44 @@
 :root #header + #content > #left > #rlblock_left,
 :root #content > #center > .dose > .dosesingle,
 :root #content > #right > .dose > .dosesingle
-{ display: none !important; }</style></head>
+{ display: none !important; }</style>
+ <style>
+.tooltip2 { position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip2 .tooltiptext2::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+}
+</style>
+ </head>
 <body class="">
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
@@ -70,10 +107,14 @@
 <p class="header-subtitle">Systematic, objective, always trying to do my best, recognition drives me.</p>
 <p><a href="mailto:otavio.grrd@gmail.com" target="_blank">otavio.grrd@gmail.com</script></a> • (61) 9 8229 - 1992 • <a href="http://otaviogrrd.github.io/" target="_blank">http://otaviogrrd.github.io/</a></p>
 <p class="header-profiles hidden-print">
-<a href="https://www.linkedin.com/in/otaviogarrido" class="btn btn-lg btn-default" target="_blank"><span class="fa fa-linkedin"></span></a>
-<a href="otaviogrrd.pdf" class="btn btn-lg btn-default" target="_blank" data-original-title="Download resume"><span class="glyphicon glyphicon-cloud-download"></span></a>
+
+ <a href="https://www.linkedin.com/in/otaviogarrido" class="btn btn-lg btn-default" target="_blank"><span class="fa fa-linkedin"></span></a>
+
+<a href="otaviogrrd.pdf" class="tooltip2 btn btn-lg btn-default" target="_blank" data-original-title="Download resume"><span class="tooltiptext2" >Download PDF Curriculum</span><span class="glyphicon glyphicon-cloud-download"></span></a>
+ 
 <a href="http://github.com/otaviogrrd/" class="btn btn-lg btn-default" target="_blank"><span class="fa fa-github"></span></a>
-</p>
+
+ </p>
 </div>
 </div>
 </header>
