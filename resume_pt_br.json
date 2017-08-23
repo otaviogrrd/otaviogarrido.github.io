@@ -1,0 +1,177 @@
+{
+  "basics": {
+    "name": "Iago Caldeira",
+    "label": "Programador",
+    "picture": "https://scontent.fplu9-1.fna.fbcdn.net/v/t1.0-9/14322523_10205346926513047_310278749165058706_n.jpg?oh=e2f237821508471cd4f634afd9457f53&oe=594F5D0B",
+    "email": "iagocaldeiraa@gmail.com",
+    "phone": "(31)97141-8870",
+    "website": "http://iagocaldeira.github.io/",
+    "summary": "Always connected with new technologies, showing me able to adapt to new processes and development models. Always attentive to new technologies and whenever possible, I try to bring new ideas and tools to the team's daily routine.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Belo Horizonte",
+      "countryCode": "BR",
+      "region": "Minas Gerais"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "iagocaldeira",
+        "url": "https://www.linkedin.com/in/iagocaldeira"
+      },
+      {
+        "network": "Github",
+        "username": "iagocaldeira",
+        "url": "http://github.com/iagocaldeira/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Tracksale",
+      "position": "FullStack Developer",
+      "website": "http://tracksale.co",
+      "startDate": "2015",
+      "endDate": "2017",
+      "summary": "Desenvolvimento de novas funcionalidades e melhorias em cima da plataforma que é baseada em PHP, MySQL, MongoDB, RabbitMQ, Angular.JS e JavaScript. Durante o período de trabalho as principais tarefas envolveram a reformulação de interfaces utilizando Bootstrap e Angular.JS; Criação de ações em massa (utilizando filas com RabbitMQ e interfaces de consumidores e publicadores), para um melhor desempenho e tratamento em paralelo das ações; Reformulação de relatórios utilizando Angular e HighCharts; Melhorias nos relatórios analíticos na plataforma.",
+      "highlights": []
+    },
+    {
+      "company": "I2O",
+      "position": "FullStack Developer",
+      "website": "",
+      "startDate": "2014",
+      "endDate": "2015",
+      "summary": "Desenvolvimento das interfaces do sistema utilizando NodeJS com SailsJS no backend e AngularJS com CSS3 e HTML5 com foco em Material Design. Experiência em desenvolvimento JavaScript com métodos funcionais e manipulação de vetores em tempo real junto da aplicação em Sockets.IO.",
+      "highlights": []
+    },
+    {
+      "company": "Strema",
+      "position": "FullStack Developer",
+      "website": "http://www.strema.com.br/",
+      "startDate": "2012",
+      "endDate": "2014",
+      "summary": "Desenvolvimento dos principais sistema web da empresa utilizando Python junto ao framework Django e utilizando HTML5 e CSS3 no design das páginas. Foi utilizado jQuery e jQueryUI como as bibliotecas principais nos scripts da página.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Ordem Demolay RFB",
+      "position": "Demolay Ativo",
+      "website": " http://demolaybrasil.org.br/",
+      "startDate": "2012",
+      "endDate": "",
+      "summary": "Trabalho de orientações de jovens de 12 a 21 anos e de integração da família, como busca do desenvolvimento intelectual, civil, religioso e da liderança.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "PUC Minas",
+      "area": "Engenharia de computação",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Cotemig",
+      "area": "em Informática",
+      "studyType": "Técnico",
+      "startDate": "2011",
+      "endDate": "2012",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Avançado",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Node",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Desenvolvimento Ágil",
+      "level": "Avançado",
+      "keywords": [
+        "Scrum",
+        "XP",
+        "Kanban",
+        "JIRA <3",
+        "Git",
+        "Grunt"
+      ]
+    },
+    {
+      "name": "JAVA",
+      "level": "Básico",
+      "keywords": [
+        "JSF",
+        "JSP"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediário",
+      "keywords": [
+        "Django"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglês",
+      "fluency": "Intermediário"
+    },
+    {
+      "language": "Espanhol",
+      "fluency": "Básico"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hardware",
+      "keywords": [
+        "Microcontroladores",
+        "Arduino",
+        "ESP8266/32"
+      ]
+    },
+    {
+      "name": "Jogos",
+      "keywords": [
+        "Counter Strike",
+        "Dota",
+        "FIFA"
+      ]
+    },
+    {
+      "name": "Desenvolvimento",
+      "keywords": [
+        "Web",
+        "Destop",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Linguagens de Progração",
+      "keywords": [
+        "Compiladores",
+        "Programação Funcional",
+        "Teorias e Métodos"
+      ]
+    }
+  ],
+  "references": []
+}
